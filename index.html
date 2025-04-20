@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal Portfolio - Registration Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+  </header>
+
+  <!-- Ordered List with Roman Numerals -->
+  <section>
+    <h2>My Goals</h2>
+    <ol type="I">
+      <li>Master Web Development</li>
+      <li>Build Innovative Projects</li>
+      <li>Contribute to Open Source</li>
+      <li>Start My Own Company</li>
+      <li>Inspire Others</li>
+    </ol>
+  </section>
+
+  <!-- External Image -->
+  <section>
+    <h2>Inspirational Image</h2>
+    <img src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg" alt="Beautiful Nature" width="600">
+  </section>
+
+  <!-- Table of Contacts -->
+  <section>
+    <h2>My Contacts</h2>
+    <table border="1" cellpadding="10">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>123 Main St, Lagos</td>
+          <td>+234 7012345678</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr>
+          <td>Jane Smith</td>
+          <td>45 Avenue Rd, Abuja</td>
+          <td>+234 8023456789</td>
+          <td>jane@example.com</td>
+        </tr>
+        <tr>
+          <td>Mike Johnson</td>
+          <td>78 Broadway, Port Harcourt</td>
+          <td>+234 8034567890</td>
+          <td>mike@example.com</td>
+        </tr>
+        <tr>
+          <td>Sarah Williams</td>
+          <td>12 Park Lane, Ibadan</td>
+          <td>+234 7045678901</td>
+          <td>sarah@example.com</td>
+        </tr>
+        <tr>
+          <td>Chris Evans</td>
+          <td>34 Palm Street, Kano</td>
+          <td>+234 7056789012</td>
+          <td>chris@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>Registration Form</h2>
+    <form action="submit.html" method="POST">
+      
+      <!-- Name Field -->
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+      <!-- Email Field -->
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+      <!-- Password Field -->
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" placeholder="Enter a strong password" minlength="6" required><br><br>
+
+      <!-- Date of Birth Field -->
+      <label for="dob">Date of Birth:</label><br>
+      <input type="date" id="dob" name="dob" required><br><br>
+
+      <!-- Dropdown Menu -->
+      <label for="country">Select your country:</label><br>
+      <select id="country" name="country" required>
+        <option value="">--Please choose an option--</option>
+        <option value="nigeria">Nigeria</option>
+        <option value="ghana">Ghana</option>
+        <option value="kenya">Kenya</option>
+        <option value="south-africa">South Africa</option>
+      </select><br><br>
+
+      <!-- Radio Buttons -->
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label><br>
+
+      <input type="radio" id="female" name="gender" value="female" required>
+      <label for="female">Female</label><br>
+
+      <input type="radio" id="other" name="gender" value="other" required>
+      <label for="other">Other</label><br><br>
+
+      <!-- Checkboxes -->
+      <p>Skills:</p>
+      <input type="checkbox" id="html" name="skills" value="HTML">
+      <label for="html">HTML</label><br>
+
+      <input type="checkbox" id="css" name="skills" value="CSS">
+      <label for="css">CSS</label><br>
+
+      <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+      <label for="javascript">JavaScript</label><br><br>
+
+      <!-- Submit Button -->
+      <input type="submit" value="Register">
+
+    </form>
+  </section>
+
+  <!-- Multimedia Section -->
+  <section>
+    <h2>Multimedia</h2>
+
+    <!-- Audio Element -->
+    <h3>Listen to Background Music</h3>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio><br><br>
+
+    <!-- Video Element -->
+    <h3>Watch Inspirational Video</h3>
+    <video width="600" controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
